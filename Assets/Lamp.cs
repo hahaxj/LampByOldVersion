@@ -34,4 +34,8 @@ public class Lamp : MonoBehaviour {
 			break;
 		}
 	}
+
+	public void rubLamp() {
+		GetComponent<ParticleSystem>().Emit(10); 
+	}
 }
